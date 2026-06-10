@@ -1,0 +1,20 @@
+# Entorno virtual
+.venv/
+
+# Datos pesados (descargar desde fuente oficial MINSA)
+Data/*.csv
+Data/shapefile.zip
+
+# Carpeta Claude (configuración local)
+.claude/
+
+# Shapefile duplicado en raíz
+shapefile/
+
+# Sistema
+.DS_Store
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
